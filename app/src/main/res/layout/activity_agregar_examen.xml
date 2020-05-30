@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AgregarExamen">
+
+    <EditText
+        android:id="@+id/edTxtNombreE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edTxtMateriaE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Materia"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edTxtDescripcionE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Descripción"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edTxtDiaE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Día"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edTxtMesE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mes"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edTxtAnoE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Año"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edTxtHoraE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Hora"
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/btnGuardarE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar" />
+
+    <Button
+        android:id="@+id/btnGuardarN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar y notificar" />
+</LinearLayout>
